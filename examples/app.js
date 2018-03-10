@@ -1,7 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Pet, { Colors, Eyes, Patterns, Bodys, Mouths } from '../';
-const { Body, Eye, Mouth, Pattern } = Pet;
 
 class App extends React.Component {
   constructor(props) {
@@ -20,8 +19,8 @@ class App extends React.Component {
   }
 
   render() {
-    let Select = props => {
-      let options = Object.keys(props.options).map(key => {
+    const Select = props => {
+      const options = Object.keys(props.options).map(key => {
         return (
           <option value={key} key={key}>
             {key}
