@@ -1,15 +1,25 @@
 # Pet chain of React Component
 
+## Example
+
 ```jsx
 import { Pet } from '@zswang/petchain';
-const { Body, Eye, Moth, Pattern, Colors } = Pet;
 
-const pet = (
-  <Pet color={Colors.土黄}>
-    <Body color={Colors.中黄} name={Body.中分} />
-    <Pattern color={Colors.春日青} name={Pattern.八字纹} />
-    <Eye color={Colors.赭石} name={Eye.小严肃} />
-    <Mouth name={Mouth.北极熊} />
-  </Pet>
-);
+let props = {
+  bgColor: '日落黄',
+  body: '灰太狼',
+  bodyColor: '牙黄',
+  eye: '小惊讶',
+  eyeColors: '浅钴蓝',
+  pattern: '奶牛',
+  patternColor: '变异橙',
+  bellyColor: '深灰',
+  mouth: '小獠牙',
+};
+
+const pet = <Pet {...props} />;
 ```
+
+## Screenshot
+
+![pet screenshot](./document/pet.png)
