@@ -23,3 +23,4 @@ const pet = <Pet {...props} />;
 ## Screenshot
 
 ![pet screenshot](./document/pet.png)
+![pet screenshot](./document/pet2.png)
