@@ -1,6 +1,6 @@
 {
   "name": "@zswang/react-petchain",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pet chain for React",
   "keywords": ["react", "react-component", "react-petchain", "pet", "chain"],
   "homepage": "http://github.com/zswang/react-petchain/",

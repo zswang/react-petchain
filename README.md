@@ -1,9 +1,11 @@
 # Pet chain of React Component
 
+# [![NPM version][npm-image]][npm-url]
+
 ## Example
 
 ```jsx
-import { Pet } from '@zswang/petchain';
+import { Pet } from '@zswang/react-petchain';
 
 let props = {
   bgColor: '日落黄',
@@ -24,3 +26,10 @@ const pet = <Pet {...props} />;
 
 ![pet screenshot](./document/pet.png)
 ![pet screenshot](./document/pet2.png)
+
+## License
+
+MIT © [zswang](http://weibo.com/zswang)
+
+[npm-url]: https://npmjs.org/package/mikecrm-api
+[npm-image]: https://badge.fury.io/js/mikecrm-api.svg

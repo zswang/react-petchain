@@ -57,4 +57,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('__react-content'));
+ReactDOM.render(<App />, document.querySelector('#__react-content'));
