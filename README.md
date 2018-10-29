@@ -31,5 +31,5 @@ const pet = <Pet {...props} />;
 
 MIT © [zswang](http://weibo.com/zswang)
 
-[npm-url]: https://npmjs.org/package/mikecrm-api
-[npm-image]: https://badge.fury.io/js/mikecrm-api.svg
+[npm-url]: https://npmjs.org/package/@zswang/react-petchain
+[npm-image]: https://badge.fury.io/js/@zswang/react-petchain.svg
